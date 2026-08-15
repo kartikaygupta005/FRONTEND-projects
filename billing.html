@@ -1,0 +1,25 @@
+<HTML>
+    <HEAD>
+        <TITLE> Billling Page </TITLE>
+        <link rel = "stylesheet" href = "billing.css">
+    </HEAD>
+    <BODY>
+        <h1> Welcome to billing page </h1>
+        <h2> please enter your name </h2> <input id = "name"  type = "text" value = "">
+        <h2> enter your phone number </h2> <input id = "phoneNumber" type = "number" value = "">
+        <h2> select item to buy </h2>
+        <select id="choose" name="products" required>
+            <option value="laptop">laptop</option>
+            <option value="computer">computer</option>
+            <option value="mouse">mouse</option>
+            <option value="keyboard">keyboard</option>
+            <option value="mic">mic</option>
+        </select>
+        
+        <h3> Quantity </h3>
+        <input id = "qty"  type = "number" value ="">
+        <input type = "button" value = "Buy" onclick = "eventchange(this)">
+        <script src = "billing.js"></script>
+        <h2 id = "total"></h2> 
+    </BODY>
+</HTML>
