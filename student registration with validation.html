@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel = "stylesheet" href = "registration1.css">
+    </head>
+    <body>
+        <h1 id = "h1"> Registration form </h1>
+    <form id="registrationForm">
+
+    <div id="divname">
+        <h2>Full Name</h2>
+        <input type="text" id="name" placeholder="name" required>
+    </div>
+
+    <div id="divmail">
+        <h2>Email</h2>
+        <input type="email" id="email" placeholder="email" required>
+    </div>
+
+    <div id="phonediv">
+        <h2>Phone Number</h2>
+        <input type="text" id="phone" placeholder="enter 10 digit number" required>
+    </div>
+
+    <div id="dobdiv">
+        <h2>Date of Birth</h2>
+        <input type="date" id="dob" required>
+    </div>
+
+    <div id="passworddiv">
+        <h2>Password</h2>
+        <input type="password" id="password" required>
+    </div>
+
+    <div id="genderdiv">
+        <h2>Gender</h2>
+
+        <input type="radio" name="gender" value="MALE" required>
+        MALE
+
+        <input type="radio" name="gender" value="FEMALE">
+        FEMALE
+    </div>
+
+    <div id="coursediv">
+        <h2>Select Course</h2>
+
+        <select id="course" required>
+            <option value="">Select Course</option>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+        </select>
+    </div>
+
+    <div id="terms">
+        <input type="checkbox" id="termsCheck" required>
+        I agree to the terms and conditions
+    </div>
+
+    <input type="submit" value="Register">
+
+</form>
+<div id="result"></div>
+
+<script src="registration1.js"></script>
+    </body>
+<html>
