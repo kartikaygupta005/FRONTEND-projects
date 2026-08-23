@@ -1,0 +1,36 @@
+#h1{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+#divname{
+    display: flex ;
+        align-items: center;
+}
+#divmail{
+    display: flex ;
+        align-items: center;
+}
+#phonediv{
+      display: flex ;
+        align-items: center;
+}
+#dobdiv{
+          display: flex ;
+        align-items: center;
+}
+#genderdiv{
+              display: flex ;
+        align-items: center;
+}
+#coursediv{
+    display: flex ;
+        align-items: center;
+        gap:15px;
+}
+#terms{    
+    display: flex ;
+        align-items: center;
+        gap:15px;
+
+}
