@@ -1,0 +1,23 @@
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#namediv{
+    display:flex;
+    align-items: center
+}
+#rolldiv{
+        display:flex;
+    align-items: center
+}
+#bookselectordiv{
+            display:flex;
+    align-items: center
+
+}
+#datediv{
+    display:flex;
+    align-items: center
+
+}
