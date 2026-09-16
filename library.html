@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Library System</title>
+        <link rel = "stylesheet" href="library.css">
+    </head>
+    <body>
+        <script src = "library.js"></script>
+        <h1 id="heading"> library book issue system</h1>
+        <form>
+            <div id="namediv">
+                <h2 id = "nameh2">Student name</h2>
+                <input id="idname" type ="text" value="" placeholder="enter name" required>
+            </div>
+            <div id="rolldiv">
+                <h2 id="rollh2">roll number</h2>
+                <input id="rollid" type = "number" placeholder="roll no" value="" required>
+            </div>
+            <div id="bookselectordiv">
+                <h2 id = "selectorh2">select book</h2>
+                <select id="selectid">
+                    <option value = "js">js</option>
+                    <option value = "python">python</option>
+                </select>
+            </div>
+            <div id = "datediv">
+                <h2 id = "dateh2">issue day</h2>
+                <input id="dateid"type="date" required>
+            </div>
+            <input type= "submit" value="issue books" onclick= "eventchange(this)">
+
+        </form>
+    </body>
+</html>
